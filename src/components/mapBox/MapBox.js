@@ -27,7 +27,7 @@ const MapBox = () => {
         pos.iss_position ? (
             <div className='map'>
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: "AIzaSyAPGmWyBRgCDg6eKRr6Vvgbrxbf9iXEWX0" }}
+                    bootstrapURLKeys={{ key: "key" }}
                     defaultCenter={{
                         lat: 0,
                         lng: 0
