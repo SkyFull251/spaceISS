@@ -1,0 +1,9 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 10% 75%;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    }

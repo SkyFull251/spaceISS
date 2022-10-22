@@ -1,0 +1,34 @@
+.people{
+    border: 2px solid grey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    &__list{
+        padding: 20px;
+        flex: 1 1 auto;
+        overflow-y: auto;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 5px;
+        margin-bottom: 10px;
+
+        img{
+            max-width: 50px;
+            max-height: 50px;
+        }
+    }
+    &__info{
+        border-top: 2px solid grey;
+        min-height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
